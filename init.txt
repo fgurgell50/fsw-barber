@@ -43,9 +43,33 @@ layout pode ser utilzado como rodapé ou header
   qdo colocamos 
   "use client" no topo da tela entao podemos usar de forma parcial Client Component
   
-  
+
 npm install -D prettier prettier-plugin-tailwindcss
 
+Bibliioteca de Component
+https://ui.shadcn.com/
+npx shadcn@latest init
+
+npx shadcn@latest add button
+import { Button } from "@/components/ui
+<Button variant="outline">Button</Button>
+
+npx shadcn@latest add accordion
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+<Accordion type="single" collapsible>
+  <AccordionItem value="item-1">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
 
   Para fazer o push
   git push origin main
