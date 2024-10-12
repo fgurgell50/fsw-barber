@@ -30,3 +30,7 @@ alterar o package.json e incluir
 
   npx prisma db seed
   executa o seed
+
+  Next 
+  o nome da pasta é o nome da rota
+  dentro app a página page.tsx é a página principal
