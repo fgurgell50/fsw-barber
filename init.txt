@@ -1,0 +1,32 @@
+npx create-next-app@latest fsw-barber
+
+npm i prisma --save-dev
+
+
+depois de criar as models ( as tabelas e seus campos)
+npx prisma format
+
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+
+npx prisma migrate dev --name init_db
+para criacao das tabelass 
+
+arquivo seed.ts
+
+alterar o package.json e incluir
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+
+  instalar
+  npm i -D ts-node
+
+  npx prisma db seed
+  executa o seed
