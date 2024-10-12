@@ -34,3 +34,18 @@ alterar o package.json e incluir
   Next 
   o nome da pasta é o nome da rota
   dentro app a página page.tsx é a página principal
+layout pode ser utilzado como rodapé ou header
+  
+  Todos os compenetnte sao Server Components, é executado do lado do servidor
+  Um botao para interagir na tela nao é possivel
+  Um estado da tela tb nao é possivel 
+  utilizar o hook useState
+  qdo colocamos 
+  "use client" no topo da tela entao podemos usar de forma parcial Client Component
+  
+  
+npm install -D prettier prettier-plugin-tailwindcss
+
+
+  Para fazer o push
+  git push origin main
