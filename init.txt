@@ -71,5 +71,25 @@ import {
   </AccordionItem>
 </Accordion>
 
+npm i -D husky lint-staged
+npx husky init
+
+na pasta pre-commit dentro de husky 
+alterar e colocar 
+npx lint-staged
+
+criar o arquivo 
+.lintstagedrc.json
+e colocar dentro 
+{
+  "*.ts?(x)": ["eslint --fix", "prettier --write"]
+}
+
+git remote add origin https://github.com/fgurgell50/fsw-barber.git
+git remote -v
+
+
+  git add .
+  git commit -m "teste"
   Para fazer o push
   git push origin main
