@@ -99,3 +99,11 @@ git remote -v
   git commit -m "teste"
   Para fazer o push
   git push origin main  
+
+11.11
+  npx shadcn@latest add accordion 
+
+  page.tsx
+  Página principal
+
+  npx shadcn@latest add input
