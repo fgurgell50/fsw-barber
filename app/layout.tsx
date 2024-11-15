@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      {/* DARK faz referencia a GLOBAL.CSS COM PADRO DE CORES */}
       <body className={inter.className}>{children}</body>
     </html>
   )

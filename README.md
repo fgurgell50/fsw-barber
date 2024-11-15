@@ -107,3 +107,5 @@ git remote -v
   Página principal
 
   npx shadcn@latest add input
+  npx shadcn@latest add badge
+  npx shadcn@latest add avatar (Instalei duas vezes para utilizar o AvatarImage)
