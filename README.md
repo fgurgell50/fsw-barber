@@ -100,6 +100,20 @@ git remote -v
   Para fazer o push
   git push origin main  
 
+  visualizar as Branches
+  git branch
+ 
+  criar uma branch nova
+  git branch nome_branch
+  git branch branch-fsw-barber
+
+  MUDAR para outra Branch
+  git checkout nome_branch
+  git checkout branch-fsw-barber
+  git checkout main
+
+
+
 11.11
   npx shadcn@latest add accordion 
 
@@ -109,3 +123,16 @@ git remote -v
   npx shadcn@latest add input
   npx shadcn@latest add badge
   npx shadcn@latest add avatar (Instalei duas vezes para utilizar o AvatarImage)
+
+Depois que o Commit for ajustado rodar 
+npm run lint
+npm run build
+Depois executar o Commmit
+git add .
+git commit -m "Correções nos arquivos barbershop-item e page"
+
+npx prisma studio --abrir o BD 
+
+criar um aqrquivo em lib --> prisma.ts
+esse arquivo garante que apenas uma instância do PrismaClient vai ser ïnsatanciada"
+no servidor do Next
