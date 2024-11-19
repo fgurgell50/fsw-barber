@@ -85,6 +85,8 @@ e colocar dentro
   "*.ts?(x)": ["eslint --fix", "prettier --write"]
 }
 
+Manual para GIT - 
+
 git remote add origin https://github.com/fgurgell50/fsw-barber.git
 git remote -v
 
@@ -93,3 +95,58 @@ git remote -v
   git commit -m "teste"
   Para fazer o push
   git push origin main
+
+Criar nova branch
+git branch barber-fsw-barber
+
+listar branch
+git branch
+
+Mudar para Branch nova
+git checkout branch-fsw-barber
+
+git add .
+
+Publicar tudo na nova branch
+git push origin branch-fsw-barber
+
+
+Troque para a branch main:
+git checkout main
+
+Atualize a branch main para garantir que está atualizada:
+git pull origin main
+
+Faça o merge da nova branch na main:
+Isso combinará as alterações da sua branch com a main.
+git merge branch-fsw-barber
+
+
+  git add .
+  git commit -m "Primeiro Commit"
+  Para fazer o push
+  git push origin main  git add .
+
+# Criar e trocar para uma nova branch
+git checkout -b minha-nova-branch
+
+# Trabalhar na branch
+git add .
+git commit -m "Minhas alterações"
+
+# Subir a branch para o repositório remoto
+git push origin minha-nova-branch
+
+# Trocar para a main
+git checkout main
+git pull origin main
+
+# Mesclar alterações
+git merge minha-nova-branch
+
+# Resolver conflitos (se necessário) e finalizar
+git add .
+git commit
+
+# Subir alterações para a main
+git push origin main
