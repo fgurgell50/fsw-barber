@@ -85,6 +85,8 @@ e colocar dentro
   "*.ts?(x)": ["eslint --fix", "prettier --write"]
 }
 
+Manual para GIT - 
+
 git remote add origin https://github.com/fgurgell50/fsw-barber.git
 git remote -v
 
@@ -107,6 +109,7 @@ git add .
 
 Publicar tudo na nova branch
 git push origin branch-fsw-barber
+
 
 Troque para a branch main:
 git checkout main
